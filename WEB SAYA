@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; color: #333; }
+    header { background-color: #005f73; color: white; padding: 20px; text-align: center; }
+    nav { background: #0a9396; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    .section { padding: 40px 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; border-radius: 10px; }
+    h2 { color: #005f73; }
+    .gallery img, .gallery video { max-width: 100%; height: auto; margin: 10px 0; border-radius: 8px; }
+    footer { background-color: #005f73; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Portofolio Saya</h1>
+    <p>Selamat datang di website pribadi saya</p>
+  </header>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#karya">Karya</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="profil" class="section">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Nama saya [Nama Kamu]. Saya adalah seorang [pekerjaan atau minat], dan ini adalah portofolio saya. Saya suka membuat karya visual dan berbagi ide kreatif lewat berbagai media.</p>
+  </section>
+
+  <section id="galeri" class="section">
+    <h2>Galeri Foto & Video</h2>
+    <div class="gallery">
+      <img src="link-ke-foto1.jpg" alt="Karya 1">
+      <video controls src="link-ke-video1.mp4"></video>
+      <!-- Tambahkan lebih banyak foto atau video sesuai kebutuhan -->
+    </div>
+  </section>
+
+  <section id="karya" class="section">
+    <h2>Karya Saya</h2>
+    <ul>
+      <li><a href="https://youtube.com/namachannel">Channel YouTube</a></li>
+      <li><a href="https://link-lain.com">Karya lainnya</a></li>
+    </ul>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Kontak</h2>
+    <p>Email: kamu@email.com</p>
+    <p>WhatsApp: 08xxxxxxxxxx</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Nama Kamu] - Semua Hak Dilindungi</p>
+  </footer>
+
+</body>
+</html>
